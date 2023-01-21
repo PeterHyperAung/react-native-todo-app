@@ -59,7 +59,7 @@ export default function Items({ items, setItems, toggleDone }) {
 
           <TouchableOpacity
             onPress={() => {
-              setItems(items.filter((i) => i.id !== item.id));
+              setItems((items) => items.filter((i) => i.id !== item.id));
             }}
           >
             <Ionicons

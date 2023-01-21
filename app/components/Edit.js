@@ -20,7 +20,6 @@ export default function Edit({ update }) {
         style={{ outlineWidth: 0 }}
         value={input}
         onChangeText={setInput}
-        defaultValue={subject}
         rightIcon={
           <TouchableOpacity
             onPress={() => {
